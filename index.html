@@ -1,61 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  
-<title></title>
+  <title>DM6032</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-  
 <body>
-<link rel= "stylesheet" href= "style,css" />
-<header> 
-<h1> Welcome to DM6032 </h1>
-<p> </p>
-</header>
-</body>
-</html>
 
-<nav>
+ <link rel= "stylesheet" href= "style,css" />
+  <header>
+    <h1>Welcome to DM6032</h1>
+  </header>
+
+  <nav>
     <ul>
-        <a href="#here">Assigment One </a></li>
-        <a href="#here"> Assigment Two </a></li>
-        <a href="#here"> Assigment Three  </a></li>
-        <a href="#here"> Assigment Four </a></li>
-        <a href="#here"> Assigment Five </a></li>
+      <li><a href="#assignment1">Assignment One</a></li>
+      <li><a href="#assignment2">Assignment Two</a></li>
+      <li><a href="#assignment3">Assignment Three</a></li>
     </ul>
-</nav>
+  </nav>
 
-<section id=" here ">
-    <h2> Tutor Information </h2>
-    <table border="1">
-        <tr>
-            <th> Date </th>
-            <th> Time  </th>
-            <th> Location </th>
-        </tr>
-        <tr>
-            <td> Monday </td>
-            <td> 10 - 11 PM  </td>
-            <td> B20.104 </td>
-        </tr>
-        <tr>
-            <td> Thursday </td>
-            <td> 12- 1 PM </td>
-            <td>B20.104</td>
-        </tr>
+  <section id="tutor-info">
+    <h2>Tutor Information</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>10 - 11 PM</td>
+        <td>B20.104</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>12 - 1 PM</td>
+        <td>B20.104</td>
+      </tr>
     </table>
-</section>
+  </section>
 
-<section id="media">
-    <h2>Video</h2>
-    <iframe width="400" height="200" src="https://www.youtube.com/embed/jQ1sfKIl50E?si=WynE7C6jCIkh7j0E"
-        title="YouTube video " frameborder="0" allowfullscreen>
-     
-    </iframe>
-</section>
+  <section id="contact">
+    <h2>Contact Your Tutor </h2>
+    <form id="contactForm">
+      <label>Your Name<br>
+        <input type="text" id="name" required />
+      </label><br><br>
 
-<footer>
-    <p> 2025 All rights reserved</p>
-</footer>
-<script src="script.js"></script>
+      <label>Your Email<br>
+        <input type="email" id="email" required />
+      </label><br><br>
+
+      <label>Write your inquires<br>
+        <textarea id="message" rows="6" cols="150" required></textarea>
+      </label><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
