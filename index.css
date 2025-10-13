@@ -6,7 +6,6 @@ body {
   background-color: #fef9e7;
 }
 
-/* Header */
 header {
   text-align: center;
   background-color: lightyellow;
@@ -20,7 +19,6 @@ header h1 {
   letter-spacing: 2px;
 }
 
-/* Navigation */
 nav ul {
   display: flex;
   justify-content: center;
@@ -40,7 +38,6 @@ nav ul li a {
   letter-spacing: 2px;
 }
 
-/* Section Headings */
 h2 {
   font-family: "Times New Roman", Arial;
   text-align: center;
@@ -49,7 +46,6 @@ h2 {
   margin-top: 30px;
 }
 
-/* Tables */
 table {
   width: 60%;
   margin: 20px auto;
@@ -75,7 +71,6 @@ td {
   font-size: 14px;
 }
 
-/* Contact Form */
 form {
   width: 70%;
   margin: 20px auto;
@@ -107,7 +102,6 @@ button:hover {
   background-color: #fff2b2;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 15px;
